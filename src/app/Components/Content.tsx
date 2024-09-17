@@ -35,9 +35,9 @@ const Content: React.FC<ContentProps> = ({ activeTab }) => {
   }, [activeTab, currentTab]);
 
   return (
-    <div className="flex-grow flex items-center justify-center bg-gray-100 p-4 relative overflow-hidden">
+    <div className="flex-grow flex items-center justify-center p-4 relative overflow-hidden">
       <div
-        className={`absolute w-full h-full bg-white p-4 rounded-lg shadow-lg transition-opacity duration-500 ease-in-out ${
+        className={`absolute w-full h-full rounded-lg shadow-lg transition-opacity duration-500 ease-in-out bg-gradient-to-r from-black via-red-900 to-black text-white ${
           transitioning ? "opacity-0" : "opacity-100"
         }`}
       >

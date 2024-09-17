@@ -6,7 +6,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ setActiveTab }) => {
   return (
-    <nav className="bg-gradient-to-b from-gray-800 via-gray-900 to-black p-6 flex flex-col items-center justify-between min-h-screen w-48">
+    <nav className="bg-gradient-to-b from-gray-800 via-gray-900 to-black p-6 flex flex-col items-center justify-between min-h-screen w-48 rounded-lg shadow-lg">
       <div className="flex flex-col space-y-4 mt-4">
         {["About Me", "Projects", "Skills", "Contact Me", "Certificates"].map(
           (tab, index) => (

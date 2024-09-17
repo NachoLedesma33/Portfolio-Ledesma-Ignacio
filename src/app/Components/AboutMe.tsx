@@ -3,7 +3,9 @@ import { motion } from "framer-motion";
 
 const AboutMe: React.FC = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen p-8 text-red-300 flex flex-col justify-center items-center">
+    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen p-8 text-red-300 flex flex-col justify-center items-center rounded-lg">
+      {" "}
+      {/* Added rounded-lg */}
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -12,7 +14,6 @@ const AboutMe: React.FC = () => {
       >
         Sobre Mí
       </motion.h1>
-
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -36,7 +37,7 @@ const AboutMe: React.FC = () => {
           tecnología para transformar ideas en realidades tangibles y mejorar la
           vida de las personas.
         </p>
-        <p className="text-lg">
+        <p className="text-lg mb-4">
           Fuera del mundo del código, disfruto [tus hobbies o intereses, por
           ejemplo: explorar nuevas tecnologías, contribuir a proyectos de código
           abierto, o compartir mis conocimientos a través de tutoriales y
