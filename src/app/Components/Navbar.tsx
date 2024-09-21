@@ -6,16 +6,13 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ setActiveTab }) => {
   return (
-    <nav className="bg-gradient-to-b from-gray-800 via-gray-900 to-black p-6 flex flex-col items-center justify-between min-h-screen w-48 rounded-lg shadow-lg">
+    <nav className="bg-gradient-to-b from-gray-800/80 via-gray-900/80 to-black/80 p-6 flex flex-col items-center justify-between min-h-screen w-48 rounded-lg shadow-lg backdrop-blur-lg">
       <div className="flex flex-col space-y-4 mt-4">
         {["About Me", "Projects", "Skills", "Contact Me", "Certificates"].map(
-          (tab, index) => (
+          (tab) => (
             <button
               key={tab}
-              className="text-red-300 hover:text-red-100 transition-all duration-700 transform-gpu hover:rotate-y-180 hover:scale-100 text-lg font-semibold"
-              style={{
-                transitionDelay: `${index * 1000}ms`,
-              }}
+              className="text-red-300 hover:text-red-100 transition-all duration-300 transform-gpu hover:scale-105 hover:shadow-lg hover:shadow-red-900/50 text-lg font-semibold"
               onClick={() => setActiveTab(tab)}
             >
               {tab}
