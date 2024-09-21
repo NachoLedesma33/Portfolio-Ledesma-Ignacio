@@ -1,4 +1,6 @@
 import React from "react";
+import LinkedInIcon from "./Icons/LinkedInIcon";
+import GitHubIcon from "./Icons/GitHubIcon";
 
 interface NavbarProps {
   setActiveTab: (tab: string) => void;
@@ -20,7 +22,13 @@ const Navbar: React.FC<NavbarProps> = ({ setActiveTab }) => {
           )
         )}
       </div>
-      <div className="mb-4">{/* Aquí puedes agregar los íconos */}</div>
+      <div className="mt-8">
+        <div className="flex items-center space-x-4 mb-2 justify-center">
+          <LinkedInIcon />
+          <GitHubIcon />
+        </div>
+        <h3 className="text-white text-lg font-bold">Find Me On</h3>
+      </div>
     </nav>
   );
 };
