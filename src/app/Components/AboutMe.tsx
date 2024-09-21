@@ -21,27 +21,25 @@ const AboutMe: React.FC = () => {
         className="max-w-2xl text-center"
       >
         <p className="text-lg mb-4">
-          Hola, soy [Tu Nombre]. Como desarrollador web apasionado, me dedico a
-          crear experiencias digitales únicas y cautivadoras.
+          Hola, soy Ignacio Ledesma. Como desarrollador web apasionado, me
+          dedico a crear experiencias digitales únicas y cautivadoras.
         </p>
         <p className="text-lg mb-4">
-          Mi viaje en el mundo del desarrollo comenzó hace [X años], impulsado
-          por una curiosidad insaciable y un deseo constante de aprender. Desde
-          entonces, he trabajado en una variedad de proyectos que han forjado mi
-          experiencia y mi perspectiva única en el campo.
+          Mi viaje en el mundo del desarrollo comenzó hace 4 años, impulsado por
+          una curiosidad insaciable y un deseo constante de aprender. Desde
+          entonces, he trabajado en una variedad de proyectos propios que han
+          forjado mi experiencia y mi perspectiva única en el campo.
         </p>
         <p className="text-lg mb-4">
-          Me apasiona especialmente [área específica, por ejemplo: la creación
-          de interfaces intuitivas, la optimización del rendimiento, o la
-          resolución de problemas complejos]. Creo firmemente en el poder de la
-          tecnología para transformar ideas en realidades tangibles y mejorar la
-          vida de las personas.
+          Me apasiona especialmente la creación de interfaces intuitivas para el
+          usuario, la optimización del rendimiento. Creo firmemente en el poder
+          de la tecnología para transformar ideas en realidades tangibles y
+          mejorar la vida de las personas.
         </p>
         <p className="text-lg mb-4">
-          Fuera del mundo del código, disfruto [tus hobbies o intereses, por
-          ejemplo: explorar nuevas tecnologías, contribuir a proyectos de código
-          abierto, o compartir mis conocimientos a través de tutoriales y
-          charlas].
+          Fuera del mundo del código, disfruto de explorar nuevas tecnologías ,
+          contribuir a proyectos de código abierto, o compartir mis
+          conocimientos a personas que las necesiten.
         </p>
       </motion.div>
     </div>
