@@ -11,10 +11,10 @@ interface ContentProps {
 
 const tabMap: Record<string, JSX.Element> = {
   "About Me": <AboutMe />,
-  Projects: <Projects />,
-  Skills: <Skills />,
+  "Projects": <Projects />,
+  "Skills": <Skills />,
   "Contact Me": <ContactMe />,
-  Certificates: <Certificates />,
+  "Certificates": <Certificates />,
 };
 
 const Content: React.FC<ContentProps> = ({ activeTab }) => {
@@ -27,21 +27,26 @@ const Content: React.FC<ContentProps> = ({ activeTab }) => {
       const timer = setTimeout(() => {
         setCurrentTab(activeTab);
         setTransitioning(false);
-      }, 500); // Duration of the animation in milliseconds
+      }, 500);
 
-      return () => clearTimeout(timer); // Cleanup on component unmount or change
+      return () => clearTimeout(timer);
     }
   }, [activeTab, currentTab]);
 
   return (
     <div className="flex-grow flex items-center justify-center p-4 relative overflow-hidden ml-8">
-      {/* Added margin-left to separate from navigation */}
       <div
         className={`absolute w-full h-full rounded-lg shadow-lg transition-opacity duration-500 ease-in-out bg-gradient-to-r from-black via-red-900 to-black text-white ${
           transitioning ? "opacity-0" : "opacity-100"
         }`}
+        style={{ overflow: "hidden", maxHeight: "calc(100vh)" }}
       >
-        {tabMap[currentTab]}
+        <div
+          className="hidden-scroll"
+          style={{ overflowY: "auto", height: "100%" }}
+        >
+          {tabMap[currentTab]}
+        </div>
       </div>
     </div>
   );

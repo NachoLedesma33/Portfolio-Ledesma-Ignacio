@@ -14,3 +14,11 @@
   transform: rotateY(0deg);
 }
 
+.hidden-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hidden-scroll::-webkit-scrollbar {
+  display: none;
+}
