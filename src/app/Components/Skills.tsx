@@ -8,7 +8,7 @@ const skills = [
     name: "Python",
     icon: "logos:python",
     url: "https://www.python.org/",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/images/icons8-python.svg",
   },
   {
     name: "Java",
@@ -182,3 +182,9 @@ const Skills: React.FC = () => {
 };
 
 export default Skills;
+
+/*
+tengo el siguiente error:
+ GET /placeholder.svg?height=80&width=80 404 in 8528ms
+ ⨯ The requested resource isn't a valid image for /placeholder.svg?height=80&width=80 received text/html; charset=utf-8
+*/
