@@ -20,8 +20,8 @@ const AboutMe: React.FC = () => {
         className="max-w-2xl text-center"
       >
         <p className="text-lg mb-4">
-          Hola, soy Ignacio Ledesma. Como desarrollador web apasionado, me
-          dedico a crear experiencias digitales únicas y cautivadoras.
+          Como desarrollador Full Stack apasionado, me dedico a crear
+          experiencias digitales únicas y cautivadoras.
         </p>
         <p className="text-lg mb-4">
           Mi viaje en el mundo del desarrollo comenzó hace 4 años, impulsado por
@@ -38,7 +38,7 @@ const AboutMe: React.FC = () => {
         <p className="text-lg mb-4">
           Fuera del mundo del código, disfruto de explorar nuevas tecnologías ,
           contribuir a proyectos de código abierto, o compartir mis
-          conocimientos a personas que las necesiten.
+          conocimientos a personas que las necesiten una mano.
         </p>
       </motion.div>
     </div>
