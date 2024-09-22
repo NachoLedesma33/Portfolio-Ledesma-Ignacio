@@ -18,11 +18,7 @@ const skills = [
     icon: "logos:javascript",
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
-  {
-    name: "Bash",
-    icon: "logos:bash-icon", // Nuevo ícono de bash de Iconify
-    url: "https://www.gnu.org/software/bash/",
-  },
+
   {
     name: "TypeScript",
     icon: "logos:typescript-icon",
@@ -58,15 +54,16 @@ const skills = [
     icon: "logos:react",
     url: "https://reactjs.org/",
   },
-  {
-    name: "Astro",
-    icon: "logos:astro-icon",
-    url: "https://astro.build/",
-  },
+
   {
     name: "Next.js",
     icon: "logos:nextjs-icon",
     url: "https://nextjs.org/",
+  },
+  {
+    name: "Astro",
+    icon: "skill-icons:astro",
+    url: "https://astro.build/",
   },
   {
     name: "Spring",
@@ -80,12 +77,12 @@ const skills = [
   },
   {
     name: "GitHub",
-    icon: "logos:github-icon",
+    icon: "bi:github",
     url: "https://github.com/",
   },
   {
     name: "Flask",
-    icon: "logos:flask",
+    icon: "skill-icons:flask-light",
     url: "https://flask.palletsprojects.com/",
   },
   {
@@ -119,6 +116,11 @@ const skills = [
     url: "https://www.jetbrains.com/idea/",
   },
   {
+    name: "Bash",
+    icon: "logos:bash-icon", // Nuevo ícono de bash de Iconify
+    url: "https://www.gnu.org/software/bash/",
+  },
+  {
     name: "PowerShell",
     icon: "vscode-icons:file-type-powershell",
     url: "https://learn.microsoft.com/en-us/powershell/",
@@ -128,7 +130,7 @@ const skills = [
 const Skills: React.FC = () => {
   return (
     <div className="w-full h-full flex flex-col bg-gradient-to-r from-gray-900 via-gray-800 to-black min-h-screen p-8 overflow-hidden">
-      <h2 className="text-4xl font-bold text-center py-6">Skills</h2>
+      <h2 className="text-4xl font-bold text-center py-6">Habilidades Generales</h2>
       <div
         className="flex-grow overflow-y-auto p-4"
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }} // Oculta barra de scroll
@@ -160,9 +162,3 @@ const Skills: React.FC = () => {
 };
 
 export default Skills;
-
-/*
-tengo el siguiente error:
- GET /placeholder.svg?height=80&width=80 404 in 8528ms
- ⨯ The requested resource isn't a valid image for /placeholder.svg?height=80&width=80 received text/html; charset=utf-8
-*/

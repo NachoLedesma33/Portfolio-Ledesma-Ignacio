@@ -5,7 +5,6 @@ const AboutMe: React.FC = () => {
   return (
     <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen p-8 text-red-300 flex flex-col justify-center items-center rounded-lg">
       {" "}
-      {/* Added rounded-lg */}
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}

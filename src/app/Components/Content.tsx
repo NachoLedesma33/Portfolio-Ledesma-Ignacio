@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Skills from "./Skills";
@@ -10,15 +11,16 @@ interface ContentProps {
 }
 
 const tabMap: Record<string, JSX.Element> = {
-  "About Me": <AboutMe />,
-  "Projects": <Projects />,
-  "Skills": <Skills />,
-  "Contact Me": <ContactMe />,
-  "Certificates": <Certificates />,
+  "Inicio": <Home />,
+  "Sobre Mi": <AboutMe />,
+  "Habilidades": <Skills />,
+  "Projectos": <Projects />,
+  "Contactar": <ContactMe />,
+  "Certificados": <Certificates />,
 };
 
 const Content: React.FC<ContentProps> = ({ activeTab }) => {
-  const [currentTab, setCurrentTab] = useState<string>("About Me");
+  const [currentTab, setCurrentTab] = useState<string>("Inicio");
   const [transitioning, setTransitioning] = useState<boolean>(false);
 
   useEffect(() => {
