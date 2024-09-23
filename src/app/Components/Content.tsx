@@ -11,12 +11,12 @@ interface ContentProps {
 }
 
 const tabMap: Record<string, JSX.Element> = {
-  Inicio: <Home />,
+  "Inicio": <Home />,
   "Sobre Mi": <AboutMe />,
-  Habilidades: <Skills />,
-  Proyectos: <Projects />,
-  Contactar: <ContactMe />,
-  Certificados: <Certificates />,
+  "Habilidades": <Skills />,
+  "Proyectos": <Projects />,
+  "Contactar": <ContactMe />,
+  "Certificados": <Certificates />,
 };
 
 const Content: React.FC<ContentProps> = ({ activeTab }) => {
