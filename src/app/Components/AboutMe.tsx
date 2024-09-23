@@ -20,7 +20,7 @@ const AboutMe: React.FC = () => {
         className="max-w-2xl text-center"
       >
         <p className="text-lg mb-4">
-          Como desarrollador Full Stack apasionado, me dedico a crear
+          Como Desarrollador Web Full Stack apasionado, me dedico a crear
           experiencias digitales únicas y cautivadoras.
         </p>
         <p className="text-lg mb-4">
