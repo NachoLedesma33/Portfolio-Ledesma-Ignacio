@@ -1,136 +1,14 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
-
-const skills = [
-  {
-    name: "Python",
-    icon: "logos:python",
-    url: "https://www.python.org/",
-  },
-  {
-    name: "Java",
-    icon: "logos:java",
-    url: "https://www.java.com/",
-  },
-  {
-    name: "JavaScript",
-    icon: "logos:javascript",
-    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
-
-  {
-    name: "TypeScript",
-    icon: "logos:typescript-icon",
-    url: "https://www.typescriptlang.org/",
-  },
-  {
-    name: "HTML5",
-    icon: "vscode-icons:file-type-html",
-    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-  },
-  {
-    name: "CSS",
-    icon: "vscode-icons:file-type-css",
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: "logos:tailwindcss-icon",
-    url: "https://tailwindcss.com/",
-  },
-  {
-    name: "Bootstrap CSS",
-    icon: "logos:bootstrap",
-    url: "https://getbootstrap.com/",
-  },
-  {
-    name: "Node.js",
-    icon: "logos:nodejs-icon",
-    url: "https://nodejs.org/",
-  },
-  {
-    name: "React",
-    icon: "logos:react",
-    url: "https://reactjs.org/",
-  },
-
-  {
-    name: "Next.js",
-    icon: "logos:nextjs-icon",
-    url: "https://nextjs.org/",
-  },
-  {
-    name: "Astro",
-    icon: "skill-icons:astro",
-    url: "https://astro.build/",
-  },
-  {
-    name: "Spring",
-    icon: "logos:spring-icon",
-    url: "https://spring.io/",
-  },
-  {
-    name: "Git",
-    icon: "logos:git-icon",
-    url: "https://git-scm.com/",
-  },
-  {
-    name: "GitHub",
-    icon: "bi:github",
-    url: "https://github.com/",
-  },
-  {
-    name: "Flask",
-    icon: "skill-icons:flask-light",
-    url: "https://flask.palletsprojects.com/",
-  },
-  {
-    name: "SQL",
-    icon: "vscode-icons:file-type-sql",
-    url: "https://www.w3schools.com/sql/",
-  },
-  {
-    name: "SQLite",
-    icon: "vscode-icons:file-type-sqlite",
-    url: "https://www.sqlite.org/",
-  },
-  {
-    name: "MySQL",
-    icon: "logos:mysql",
-    url: "https://www.mysql.com/",
-  },
-  {
-    name: "VS Code",
-    icon: "logos:visual-studio-code",
-    url: "https://code.visualstudio.com/",
-  },
-  {
-    name: "PyCharm",
-    icon: "logos:pycharm",
-    url: "https://www.jetbrains.com/pycharm/",
-  },
-  {
-    name: "IntelliJ IDEA",
-    icon: "logos:intellij-idea",
-    url: "https://www.jetbrains.com/idea/",
-  },
-  {
-    name: "Bash",
-    icon: "logos:bash-icon", // Nuevo ícono de bash de Iconify
-    url: "https://www.gnu.org/software/bash/",
-  },
-  {
-    name: "PowerShell",
-    icon: "vscode-icons:file-type-powershell",
-    url: "https://learn.microsoft.com/en-us/powershell/",
-  },
-];
+import skills from "../public/skills.json";
 
 const Skills: React.FC = () => {
   return (
     <div className="w-full h-full flex flex-col bg-gradient-to-r from-gray-900 via-gray-800 to-black min-h-screen p-8 overflow-hidden">
-      <h2 className="text-4xl font-bold text-center py-6">Habilidades Generales</h2>
+      <h2 className="text-4xl font-bold text-center py-6">
+        Habilidades Generales
+      </h2>
       <div
         className="flex-grow overflow-y-auto p-4"
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }} // Oculta barra de scroll
