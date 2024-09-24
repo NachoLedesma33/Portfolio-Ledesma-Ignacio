@@ -15,7 +15,7 @@ const Navbar: React.FC<NavbarProps> = ({ setActiveTab }) => {
           "Sobre Mi",
           "Habilidades",
           "Proyectos",
-          "Contactarme",
+          "Contacto",
           "Certificados",
         ].map((tab) => (
           <button

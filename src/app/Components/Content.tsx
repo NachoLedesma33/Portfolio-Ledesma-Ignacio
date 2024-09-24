@@ -15,7 +15,7 @@ const tabMap: Record<string, JSX.Element> = {
   "Sobre Mi": <AboutMe />,
   "Habilidades": <Skills />,
   "Proyectos": <Projects />,
-  "Contactar": <ContactMe />,
+  "Contacto": <ContactMe />,
   "Certificados": <Certificates />,
 };
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion"; // Importamos motion de framer-motion
+import { motion } from "framer-motion";
 
 const Home: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const Home: React.FC = () => {
 
       <motion.div
         className="w-full lg:w-1/2 text-center lg:text-left"
-        initial={{ opacity: 0, x: -100 }} //
+        initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }} 
         transition={{ duration: 0.8 }} 
       >
