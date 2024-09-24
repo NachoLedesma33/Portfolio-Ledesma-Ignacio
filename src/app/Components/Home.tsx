@@ -4,7 +4,7 @@ import { motion } from "framer-motion"; // Importamos motion de framer-motion
 
 const Home: React.FC = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen p-8 text-red-300 flex flex-col lg:flex-row justify-center items-center rounded-lg">
+    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen p-8 text-red-100 flex flex-col lg:flex-row justify-center items-center rounded-lg">
 
       <motion.div
         className="w-full lg:w-1/2 text-center lg:text-left"
