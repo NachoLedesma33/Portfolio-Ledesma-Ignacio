@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 const AboutMe: React.FC = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen p-8 text-red-100 flex flex-col justify-center items-center rounded-lg">
+    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen p-8 text-gray-300 flex flex-col justify-center items-center rounded-lg">
       {" "}
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-4xl font-bold mb-6 text-red-100"
+        className="text-4xl font-bold mb-6 text-gray-300"
       >
         Sobre Mí
       </motion.h1>
