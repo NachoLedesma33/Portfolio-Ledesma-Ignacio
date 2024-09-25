@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Certificate",
+    "image": "/image/Js-Frontend-Ledesma-ignacio.png",
+    "description": "Certificate for completing the Web Development course.",
+    "fullImage": "/images/Js-Frontend-Ledesma-ignacio.png"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Mastery",
+    "image": "/images/certificate2.jpg",
+    "description": "Mastery in JavaScript programming.",
+    "fullImage": "/images/full-certificate2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "React Developer",
+    "image": "/images/certificate3.jpg",
+    "description": "React Developer certificate.",
+    "fullImage": "/images/full-certificate3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Node.js Certificate",
+    "image": "/images/certificate4.jpg",
+    "description": "Completed advanced Node.js training.",
+    "fullImage": "/images/full-certificate4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Python for Data Science",
+    "image": "/images/certificate5.jpg",
+    "description": "Certification in Python for Data Science.",
+    "fullImage": "/images/full-certificate5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Full Stack Developer",
+    "image": "/images/certificate6.jpg",
+    "description": "Certified Full Stack Developer.",
+    "fullImage": "/images/full-certificate6.jpg"
+  }
+]
