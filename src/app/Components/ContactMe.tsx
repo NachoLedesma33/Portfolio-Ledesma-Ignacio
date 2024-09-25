@@ -37,7 +37,7 @@ const ContactMe: React.FC = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      <h2 className="text-2xl font-bold mb-8">Contactarme via mail</h2>
+      <h2 className="text-2xl font-bold text-red-300 mb-8">Contactarme via mail</h2>
 
       <motion.form
         className="w-full max-w-lg space-y-6"
@@ -56,7 +56,7 @@ const ContactMe: React.FC = () => {
           <input
             type="text"
             id="name"
-            placeholder="Enter your name"
+            placeholder="Ingrese su nombre"
             className="mt-1 p-3 w-full bg-gray-800 text-gray-300 border border-gray-600 rounded-lg focus:outline-none focus:border-gray-400"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -73,7 +73,7 @@ const ContactMe: React.FC = () => {
           <input
             type="email"
             id="email"
-            placeholder="Mail"
+            placeholder="Ingrese su mail"
             className="mt-1 p-3 w-full bg-gray-800 text-gray-300 border border-gray-600 rounded-lg focus:outline-none focus:border-gray-400"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
