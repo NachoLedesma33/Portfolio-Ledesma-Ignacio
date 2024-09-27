@@ -7,25 +7,6 @@ const Certificates: React.FC = () => {
     null
   );
 
-  const imageMap: { [key: number]: { image: string; fullImage: string } } = {
-    1: {
-      image: "/src/app/public/images/Js-Frontend-Ledesma-ignacio.png",
-      fullImage: "/src/app/public/images/js-Front-ledesma-ignacio.jpg",
-    },
-    2: {
-      image: "/src/app/public/images/Js-FullStack-Ledesma-Ignacio.png",
-      fullImage: "/src/app/public/images/js-ledesma-ignacio.jpg",
-    },
-    3: {
-      image: "/src/app/public/images/Python-Ledesma-Ignacio.png",
-      fullImage: "/src/app/public/images/Python-Ignacio-Ledesma.jpg",
-    },
-    4: {
-      image: "/src/app/public/images/TS-Ledesma-Ignacio.png",
-      fullImage: "/src/app/public/images/ts-ledesma-ignacio.jpg",
-    },
-  };
-
   return (
     <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen p-12 text-gray-300 flex flex-col justify-center items-center">
       <h2 className="text-4xl font-bold text-red-300 text-center py-1">
@@ -44,7 +25,7 @@ const Certificates: React.FC = () => {
           >
             <div className="relative h-48 w-full">
               <Image
-                src={imageMap[cert.id].image}
+                src={cert.image}
                 alt={cert.title}
                 layout="fill"
                 objectFit="cover"
@@ -67,7 +48,10 @@ const Certificates: React.FC = () => {
         >
           <div className="bg-gray-800 p-4 rounded-lg max-w-3xl max-h-full overflow-auto">
             <Image
-              src={imageMap[selectedCertificate].fullImage}
+              src={
+                certificatesData.find((cert) => cert.id === selectedCertificate)
+                  ?.fullImage || ""
+              }
               alt="Full Certificate"
               width={800}
               height={600}

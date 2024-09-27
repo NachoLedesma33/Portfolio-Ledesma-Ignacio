@@ -2,21 +2,29 @@
   {
     "id": 1,
     "title": "Desarrollo Web Frontend con JavaScript",
-    "description": "Curso completo de Frontend con VanillaJS."
+    "image": "/images/Js-Frontend-Ledesma-ignacio.png",
+    "description": "Curso completo de Frontend con VanillaJS.",
+    "fullImage": "/images/js-Front-ledesma-ignacio.jpg"
   },
   {
     "id": 2,
     "title": "Maestria en JavaScript FullStack",
-    "description": "Certificado de Maestría en JavaScript con React y Node.js."
+    "image": "/images/Js-FullStack-Ledesma-Ignacio.png",
+    "description": "Cestificado de Maestria en JavaScript con React y Node.Js.",
+    "fullImage": "/images/js-ledesma-ignacio.jpg"
   },
   {
     "id": 3,
     "title": "Desarrollo Web FullStack con Python",
-    "description": "Certificado de desarrollo Full Stack con Python."
+    "image": "/images/Python-Ledesma-Ignacio.png",
+    "description": "Certificado de desarrollo Full Stack con Python.",
+    "fullImage": "/images/Python-Ignacio-Ledesma.jpg"
   },
   {
     "id": 4,
-    "title": "Maestría en TypeScript",
-    "description": "Certificado de desarrollo con TypeScript."
+    "title": "Maestria en TypeScript",
+    "image": "/images/TS-Ledesma-Ignacio.png",
+    "description": "Certificado de desarrollo con TypeScript.",
+    "fullImage": "/images/ts-ledesma-ignacio.jpg"
   }
 ]
