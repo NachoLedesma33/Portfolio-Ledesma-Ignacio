@@ -27,11 +27,11 @@ const Projects: React.FC = () => {
 
   return (
     <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen p-12 text-gray-300 flex flex-col justify-center items-center">
-      <h2 className="text-4xl font-bold text-red-300 text-center py-1">
+      <h2 className="text-4xl font-bold text-red-500 text-center py-1">
         Proyectos
       </h2>
-      <p className="mt-4 text-gray-400 mb-8">
-        Algunos de mis proyectos realizados utilizando diferentes tecnologías.
+      <p className="text-xl mt-5 text-gray-400 mb-9">
+        Estos son algunos de mis proyectos mas destacados realizados utilizando diferentes tecnologías.
       </p>
 
       <div className="mb-4">

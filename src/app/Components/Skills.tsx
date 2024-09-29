@@ -6,7 +6,7 @@ import skills from "../data/skills.json";
 const Skills: React.FC = () => {
   return (
     <div className="w-full h-full flex flex-col bg-gradient-to-r from-gray-900 via-gray-800 to-black min-h-screen p-8 overflow-hidden">
-      <h2 className="text-4xl font-bold text-red-300 text-center py-1">
+      <h2 className="text-4xl font-bold text-red-500 text-center py-1">
         Habilidades Generales
       </h2>
       <div

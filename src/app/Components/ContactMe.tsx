@@ -37,7 +37,7 @@ const ContactMe: React.FC = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      <h2 className="text-2xl font-bold text-red-300 mb-8">Contactarme via mail</h2>
+      <h2 className="text-2xl font-bold text-red-500 mb-8">Contactarme via mail</h2>
 
       <motion.form
         className="w-full max-w-lg space-y-6"

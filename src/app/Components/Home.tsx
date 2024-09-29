@@ -11,15 +11,18 @@ const Home: React.FC = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-7xl font-bold mb-5">Ledesma Ignacio</h1>
-        <h2 className="text-4xl font-bold mb-5">
+        <h1 className="text-5xl font-bold mb-5 text-red-500">
+          Ledesma Ignacio Manuel
+        </h1>
+        <h2 className="text-4xl font-bold mb-5 text-red-400">
           Desarrollador Web Full Stack
         </h2>
         <p className="text-2xl text-red-100 text-justify lg:text-left">
           Soy un apasionado programador web con enfoque en el desarrollo de
-          aplicaciones modernas.
+          aplicaciones modernas,{" "}
+          <b className="text-red-500">principalmente con JavaScript</b>.
         </p>
-      </motion.div>
+      </motion.div> 
 
       <motion.div
         className="w-full lg:w-1/2 flex justify-center mt-8 lg:mt-0 lg:ml-8"
