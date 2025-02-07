@@ -20,7 +20,7 @@ const Home: React.FC = () => {
         <p className="text-2xl text-red-100 text-justify lg:text-left">
           Soy un apasionado programador web con enfoque en el desarrollo de
           aplicaciones modernas,{" "}
-          <b className="text-red-500">principalmente con JavaScript</b>.
+          <b className="text-red-400">pricipalmente con Java y JavaScript</b>.
         </p>
       </motion.div> 
 
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
       >
         <div className="w-80 h-[26rem] overflow-hidden rounded-full border-2 border-red-100 shadow-lg">
           <Image
-            src="https://avatars.githubusercontent.com/u/118952823?v=4"
+            src="/profile.jpg"
             alt="Ledesma Ignacio"
             width={700}
             height={800}
